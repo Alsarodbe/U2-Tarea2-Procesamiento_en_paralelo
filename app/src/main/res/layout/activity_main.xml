@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hilo no iniciado"
+        android:textSize="40dp"
+        android:textColor="#3B54DD"
+        android:id="@+id/txtHilo"
+        android:textAlignment="center"
+        android:layout_marginBottom="30dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Hilo"
+        android:id="@+id/btnHilo"
+        android:layout_marginBottom="15dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pausar/Play hilo"
+        android:id="@+id/btnPause"
+        android:layout_marginBottom="15dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reiniciar conteo"
+        android:id="@+id/btnReboot"
+        android:layout_marginBottom="15dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terminar hilo"
+        android:id="@+id/btnEnd"
+        android:padding="10dp"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
